@@ -1,0 +1,113 @@
+linear_signals:
+  rnn_type: 'LSTM' 
+  num_layers: 1
+  dropout: 0.0
+  lr_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0001
+  bt_sz: 32
+  seq_len: 20
+  num_channel: 5
+  in_dim: 5
+  out_dim: 5
+  num_hidden: 10
+  tt_split: 0.7
+  tv_split: 0.8
+  num_trial: 1
+  threshold: 0.1
+  num_epoch: 15
+
+nonlinear_signals:
+  rnn_type: 'LSTM'
+  num_layers: 1
+  dropout: 0.0
+  lr_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0001
+  bt_sz: 32
+  seq_len: 20
+  num_channel: 5
+  in_dim: 5
+  out_dim: 5
+  num_hidden: 15
+  tt_split: 0.7
+  tv_split: 0.8
+  num_trial: 1
+  threshold: 0.1
+  num_epoch: 30
+
+longlag_nonlinear_signals:
+  rnn_type: 'LSTM'
+  num_layers: 1
+  dropout: 0.0
+  lr_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0
+  bt_sz: 32
+  seq_len: 20
+  num_channel: 5
+  in_dim: 5
+  out_dim: 5
+  num_hidden: 15
+  tt_split: 0.7
+  tv_split: 0.8
+  num_trial: 1
+  threshold: 0.01
+  num_epoch: 40
+
+iEEG_o:
+  rnn_type: 'LSTM'
+  num_layers: 1
+  dropout: 0.0
+  lr_rate: 0.00001
+  momentum: 0.9
+  weight_decay: 0.0
+  bt_sz: 32
+  seq_len: 20
+  num_channel: 3
+  in_dim: 3
+  out_dim: 3
+  num_hidden: 10
+  tt_split: 0.7
+  tv_split: 0.8
+  num_trial: 1
+  threshold: 0.1
+  num_epoch: 5
+
+EEG64s:
+  rnn_type: 'LSTM'
+  num_layers: 1
+  dropout: 0.0
+  lr_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0
+  bt_sz: 32
+  seq_len: 20
+  num_channel: 20
+  in_dim: 20
+  out_dim: 20
+  num_hidden: 15
+  tt_split: 0.7
+  tv_split: 0.8
+  num_trial: 1
+  threshold: 0.01
+  num_epoch: 10
+
+EEG72s:
+  rnn_type: 'LSTM'
+  num_layers: 1
+  dropout: 0.0
+  lr_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0
+  bt_sz: 32
+  seq_len: 20
+  num_channel: 20
+  in_dim: 20
+  out_dim: 20
+  num_hidden: 15
+  tt_split: 0.7
+  tv_split: 0.8
+  num_trial: 1
+  threshold: 0.01
+  num_epoch: 10
