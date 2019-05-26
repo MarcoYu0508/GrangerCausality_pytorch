@@ -35,7 +35,7 @@
         "tv_split": 0.8,
         "num_trial": 1,
         "threshold": 0.1,
-        "num_epoch": 30
+        "num_epoch": 60
     },
     "longlag_nonlinear_signals": {
         "rnn_type": "LSTM",
@@ -44,17 +44,17 @@
         "lr_rate": 0.001,
         "momentum": 0.9,
         "weight_decay": 0.0,
-        "bt_sz": 32,
-        "seq_len": 20,
+        "bt_sz": 64,
+        "seq_len": 15,
         "num_channel": 5,
         "in_dim": 5,
         "out_dim": 5,
-        "num_hidden": 15,
+        "num_hidden": 65,
         "tt_split": 0.7,
         "tv_split": 0.8,
         "num_trial": 1,
         "threshold": 0.1,
-        "num_epoch": 40
+        "num_epoch": 80
     },
     "IMS": {
         "rnn_type": "LSTM",
